@@ -6,7 +6,7 @@ module.exports.config = {
   aliases: ['info'],
   description: "Beginner's guide",
   usage: "Help [page] or [command]",
-  credits: 'Develeoper',
+  credits: 'REX DEV',
 };
 module.exports.run = async function({
   api,
@@ -25,7 +25,7 @@ module.exports.run = async function({
       let page = 1;
       let start = (page - 1) * pages;
       let end = start + pages;
-      let helpMessage = `🌟𝗠𝗬 𝗔𝗩𝗔𝗜𝗟 𝗖𝗠𝗗 𝗟𝗜𝗦𝗧🌟\n\n`;
+      let helpMessage = `🌟REX DEV 𝗖𝗠𝗗 𝗟𝗜𝗦𝗧🌟\n\n`;
       for (let i = start; i < Math.min(end, commands.length); i++) {
         helpMessage += `\t${i + 1}. ╚═❯❯ ${prefix} \n╔═➳➳➳➳➳⋇⊶┫${commands[i]}💟 \n`;
       }

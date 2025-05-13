@@ -61,7 +61,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 
                 const welcomeMessage = `
 ╔══════════════════════╗
-║ Hello ${prefix} ${name},
+║ Hi Welcome ${prefix} ${name},
 ║ ──────────────────
 ║ You're The ${memberCount} Member
 ║ ──────────────────
@@ -85,7 +85,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 
                 const welcomeMessage = `
 ╔══════════════════════╗
-║ Hello ${prefix} ${name},
+║ Hi Welcome ${prefix} ${name},
 ║ ──────────────────
 ║ You're The ${memberCount} Member
 ║ ──────────────────
